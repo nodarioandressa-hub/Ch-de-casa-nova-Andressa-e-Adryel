@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chá de Casa Nova - Andressa e Adryel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navegação -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">🏡 Chá de Casa Nova</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#presentes">Presentes</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Bem-vindo ao Chá de Casa Nova!</h1>
+            <p>Andressa e Adryel convida você para celebrar este momento especial</p>
+            <button class="btn-principal">Confirme sua Presença</button>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2>Sobre o Evento</h2>
+            <div class="sobre-content">
+                <div class="sobre-texto">
+                    <h3>Um momento especial</h3>
+                    <p>Estamos felizes em compartilhar a alegria de nossa nova casa com você! 
+                    Este chá de casa nova é uma oportunidade para reunir pessoas queridas 
+                    e celebrar este novo capítulo em nossas vidas.</p>
+                    <ul class="info-list">
+                        <li><i class="fas fa-calendar"></i> <strong>Data:</strong> [Data do evento]</li>
+                        <li><i class="fas fa-clock"></i> <strong>Horário:</strong> [Horário]</li>
+                        <li><i class="fas fa-map-marker-alt"></i> <strong>Local:</strong> [Endereço]</li>
+                    </ul>
+                </div>
+                <div class="sobre-imagem">
+                    <img src="assets/imagens/casa.jpg" alt="Imagem da casa" class="placeholder">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria -->
+    <section id="galeria" class="galeria">
+        <div class="container">
+            <h2>Galeria</h2>
+            <div class="galeria-grid">
+                <div class="galeria-item">
+                    <img src="assets/imagens/foto1.jpg" alt="Foto 1" class="placeholder">
+                </div>
+                <div class="galeria-item">
+                    <img src="assets/imagens/foto2.jpg" alt="Foto 2" class="placeholder">
+                </div>
+                <div class="galeria-item">
+                    <img src="assets/imagens/foto3.jpg" alt="Foto 3" class="placeholder">
+                </div>
+                <div class="galeria-item">
+                    <img src="assets/imagens/foto4.jpg" alt="Foto 4" class="placeholder">
+                </div>
+                <div class="galeria-item">
+                    <img src="assets/imagens/foto5.jpg" alt="Foto 5" class="placeholder">
+                </div>
+                <div class="galeria-item">
+                    <img src="assets/imagens/foto6.jpg" alt="Foto 6" class="placeholder">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Presentes -->
+    <section id="presentes" class="presentes">
+        <div class="container">
+            <h2>Lista de Presentes</h2>
+            <div class="presentes-grid">
+                <div class="presente-card">
+                    <i class="fas fa-bed"></i>
+                    <h3>Jogo de Cama</h3>
+                    <p>Jogo de cama 200 fios</p>
+                    <span class="preco">R$ 250,00</span>
+                    <button class="btn-secundario">Presentear</button>
+                </div>
+                <div class="presente-card">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Jogo de Panelas</h3>
+                    <p>Jogo de panelas antiaderente</p>
+                    <span class="preco">R$ 350,00</span>
+                    <button class="btn-secundario">Presentear</button>
+                </div>
+                <div class="presente-card">
+                    <i class="fas fa-couch"></i>
+                    <h3>Almofadas Decorativas</h3>
+                    <p>Kit com 4 almofadas</p>
+                    <span class="preco">R$ 180,00</span>
+                    <button class="btn-secundario">Presentear</button>
+                </div>
+                <div class="presente-card">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Luminária</h3>
+                    <p>Luminária de piso moderna</p>
+                    <span class="preco">R$ 120,00</span>
+                    <button class="btn-secundario">Presentear</button>
+                </div>
+                <div class="presente-card">
+                    <i class="fas fa-bath"></i>
+                    <h3>Jogo de Toalhas</h3>
+                    <p>Jogo com 6 toalhas</p>
+                    <span class="preco">R$ 200,00</span>
+                    <button class="btn-secundario">Presentear</button>
+                </div>
+                <div class="presente-card">
+                    <i class="fas fa-wine-glass-alt"></i>
+                    <h3>Jogo de Taças</h3>
+                    <p>6 taças de cristal</p>
+                    <span class="preco">R$ 150,00</span>
+                    <button class="btn-secundario">Presentear</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <div class="contato-content">
+                <form class="formulario" id="formulario">
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" name="telefone">
+                    </div>
+                    <div class="form-group">
+                        <label for="presenca">Presença</label>
+                        <select id="presenca" name="presenca" required>
+                            <option value="">Selecione uma opção</option>
+                            <option value="sim">Confirmo presença</option>
+                            <option value="nao">Não poderei comparecer</option>
+                            <option value="talvez">Ainda não sei</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn-principal">Enviar</button>
+                </form>
+                <div class="contato-info">
+                    <h3>Informações</h3>
+                    <p><i class="fas fa-phone"></i> <strong>Telefone:</strong> (XX) XXXXX-XXXX</p>
+                    <p><i class="fas fa-envelope"></i> <strong>Email:</strong> contato@example.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> <strong>Endereço:</strong> [Sua cidade, Estado]</p>
+                    <div class="redes-sociais">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Chá de Casa Nova - Andressa e Adryel. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
